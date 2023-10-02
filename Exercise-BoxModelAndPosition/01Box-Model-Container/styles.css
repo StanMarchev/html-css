@@ -1,1 +1,15 @@
-/* TODO: style the html */
+body {
+    background-color: lightslategray;
+}
+
+p {
+    width: 300;
+    padding: 20px;
+    margin: auto;
+    background-color: #0f4069;
+    color: whitesmoke;
+    border: #e6eaef solid 2px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 50px;
+
+}
