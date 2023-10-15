@@ -30,8 +30,16 @@ aside {
     flex:1 1 25%;
 }
 
-@media (max-width500px) {
+@media (max-width: 500px) {
     body {
         flex-direction: column;
+    }
+    nav  ul {
+        display: flex;
+        
+    }
+
+    nav  li {
+        display: block;
     }
 }
