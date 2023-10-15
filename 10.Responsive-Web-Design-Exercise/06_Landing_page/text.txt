@@ -60,3 +60,25 @@ Privacy Policy
 office@purplespider.bg
 Monday - Friday: 09:00 - 18:00
 28 Some Place Str.
+
+PROGRAM CountInputs
+VAR
+    InputData: ARRAY [1..45] OF DINT;
+    OutputData: ARRAY [1..45] OF DINT;
+    ValueToCount: DINT;
+    Count: DINT;
+END_VAR
+
+ValueToCount := InputData[1];
+Count := 1;
+OutputData[1] := 1;
+
+FOR i := 2 TO 45 DO
+    IF InputData[i] = ValueToCount THEN
+        Count := Count + 1;
+    ELSE
+        ValueToCount := InputData[i];
+        Count := 1;
+    END_IF
+    OutputData[i] := Count;
+END_FOR
