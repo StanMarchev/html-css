@@ -1,33 +1,46 @@
-body {
-    margin: 0;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
     padding: 0;
-    display: block;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-main {
-    display: flex;
-    
+html {
+font: 12px/1.5 Poppins, sans-serif;
 }
 
-header {
-    text-align: center; 
+body {
+    padding: 2em;
 }
 
 img {
-    object-fit: contain;
-    width: 500px;
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
-section {
+.container {
+    max-width: 100em;
+    margin: 0 auto;
+}
+
+.section-header {
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+.section-header span {
+    color: #819DAF;
+}
+
+.section-content {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 20px;
-    margin: 20px;
-    border: 1px solid #e6e6e6;
+    gap: 1.5em;
 }
 
-service {
-    color: lightblue;
+.section-content article {
+    flex:1 1 30%;
+    color: #000;
+    background: #819DAF;
 }
