@@ -1,0 +1,85 @@
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+body {
+    background: url(..//03.Business/03.Business_Resources/images/background.jpg);
+    background-size: contain;
+    background-position: center -80px;
+    background-repeat: no-repeat;
+    background-color: #1F3287;
+    ;
+}
+
+main {
+    background-color: #171720;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-site-header {
+    color: #fff;
+}
+
+.section-site-header .container{
+  display: flex; 
+  justify-content: flex-end; 
+  padding: 1em;
+}
+
+.section-site-header .site-title{
+    display: none;
+}
+
+.section-site-header a {
+color: #fff;
+
+}
+
+.section-site-header .container {
+    display: flex; 
+    justify-content: flex-end; 
+    padding: 1em;
+  }
+  
+  .section-site-footer {
+    background: #171720;
+    display: flex;
+    color: #fff;
+}
+
+.section-targets {
+    border-bottom: solid 0.2em #CCCCCC;
+    background: #fff;
+}
+
+
+.big-footer .container {
+    background: #171720;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    line-height: 2.5;
+    
+}
+
+.main-head-footer {
+    font-size: large;
+}
+
+span {
+    font-size: 12px;
+}
+
+.big-footer {
+    background:#171720;
+    border-bottom: solid 0.2em #3A3A41;
+}
+
+.section-sponsors {
+    background: #171720;
+}

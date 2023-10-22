@@ -20,8 +20,10 @@
     }
 
     .home-full-width-banner.section-container {
+
         flex-direction: column;
     }
+
     .home-left4 {
         padding: 2em 0;
     }
@@ -41,6 +43,7 @@
    .home-image6 {
         width: 100%;
    }
+   
    .max-width-container {
 
     align-items: stretch;
@@ -55,7 +58,9 @@
 
     .home-links-container,
     .home-footer1 {
+
     flex-direction: column-reverse;
+
     }
 
     .home-container10 {
