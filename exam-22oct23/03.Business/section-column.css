@@ -19,9 +19,10 @@
     gap: 2em;
 }
 
-.section-columns .section-content article {
+.section-sponsors .section-content article {
     flex:1 1 30%;
     text-align: center;
+
 }
 .section-sponsors{
     background: #fff;
@@ -86,6 +87,17 @@
     color: black;
     font-size: 34px;
     margin-bottom: 1em;
+    display: flex;
+    align-items: flex-start;
 }
+.paragraph,
+.section-targets p {
+    display: flex;
+    align-items: flex-start;
+}
+
+
+
+
 
 

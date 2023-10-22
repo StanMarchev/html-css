@@ -14,3 +14,19 @@
 .main-nav a {
     text-decoration: none;
 }
+
+.logo-container {
+    
+    display: flex;
+    top: 20px;
+    left: 20px;
+}
+
+.logo-container img {
+    width: 50px; 
+}
+
+.section-site-header .container {
+    display: flex;
+    justify-content: space-between;
+}

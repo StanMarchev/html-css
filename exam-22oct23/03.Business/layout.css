@@ -46,11 +46,18 @@ color: #fff;
     padding: 1em;
   }
   
-  .section-site-footer {
+.section-site-footer {
     background: #171720;
-    display: flex;
+    
     color: #fff;
 }
+
+.section-site-footer .container p {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
 
 .section-targets {
     border-bottom: solid 0.2em #CCCCCC;
@@ -58,17 +65,19 @@ color: #fff;
 }
 
 
-.big-footer .container {
+.big-footer .container{
     background: #171720;
-    color: #fff;
+    color: #B38762;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     line-height: 2.5;
+    margin-bottom: 4em;
     
 }
 
 .main-head-footer {
     font-size: large;
+    color: #fff;
 }
 
 span {
